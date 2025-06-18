@@ -141,4 +141,4 @@ instalar_herramientas() {
 }
 
 # Para probar la función directamente (opcional, comentar si se usa como librería)
-instalar_herramientas
+# instalar_herramientas
