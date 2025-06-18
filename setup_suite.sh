@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 echo "================================================"
 echo "Bienvenido al Script de Configuración de la Suite"
@@ -12,7 +12,7 @@ echo "Comprobación de Git finalizada."
 echo ""
 
 # 3. Definir Variables del Repositorio
-REPO_URL="https://github.com/USUARIO/NOMBRE_REPO.git" # Placeholder
+REPO_URL="https://github.com/eoeg2011/MiSuiteTermux.git" # Placeholder
 REPO_DIR_NAME="termux_suite_files" # Nombre del directorio donde se clonará
 REPO_FULL_PATH="$HOME/$REPO_DIR_NAME"
 
