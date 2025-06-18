@@ -15,12 +15,12 @@ Sigue estos pasos para instalar la suite en Termux:
 
     Comando usando `curl`:
     ```bash
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/USUARIO/NOMBRE_REPO/main/setup_suite.sh)"
+    bash -c "$(curl -fsSL https://github.com/eoeg2011/MiSuiteTermux/blob/main/setup_suite.sh)"
     ```
 
     Comando usando `wget`:
     ```bash
-    bash -c "$(wget -qO- https://raw.githubusercontent.com/USUARIO/NOMBRE_REPO/main/setup_suite.sh)"
+    bash -c "$(wget -qO- https://github.com/eoeg2011/MiSuiteTermux/blob/main/setup_suite.sh)"
     ```
 
     **Nota Importante:**
