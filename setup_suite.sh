@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo "================================================"
 echo "Bienvenido al Script de Configuración de la Suite"
