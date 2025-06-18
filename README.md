@@ -15,16 +15,16 @@ Sigue estos pasos para instalar la suite en Termux:
 
     Comando usando `curl`:
     ```bash
-    bash -c "$(curl -fsSL https://github.com/eoeg2011/MiSuiteTermux/blob/main/setup_suite.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/eoeg2011/MiSuiteTermux/main/setup_suite.sh)"
     ```
 
     Comando usando `wget`:
     ```bash
-    bash -c "$(wget -qO- https://github.com/eoeg2011/MiSuiteTermux/blob/main/setup_suite.sh)"
+    bash -c "$(wget -qO- https://raw.githubusercontent.com/eoeg2011/MiSuiteTermux/main/setup_suite.sh)"
     ```
 
     **Nota Importante:**
-    *   Deberás reemplazar `USUARIO/NOMBRE_REPO/main` en el comando que copies con la URL real de **este** repositorio y la rama correcta (generalmente `main` o `master`) donde se encuentra el archivo `setup_suite.sh`. Por ejemplo, si tu nombre de usuario en GitHub es `MiUsuario` y el nombre de tu repositorio es `MiSuiteTermux`, el enlace sería algo como `https://raw.githubusercontent.com/MiUsuario/MiSuiteTermux/main/setup_suite.sh`.
+    *   Los comandos de arriba asumen que tu archivo `setup_suite.sh` se encuentra en la rama principal (`main`) de tu repositorio. Si tu rama principal tiene un nombre diferente (por ejemplo, `master`), deberás ajustar la URL en el comando.
 
 3.  **Pega el Comando en Termux y Ejecuta:**
     *   Una vez copiado el comando, vuelve a Termux.
